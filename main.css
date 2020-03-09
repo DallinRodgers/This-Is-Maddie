@@ -23,7 +23,7 @@ a {
 }
 
 .content {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   position: relative;
   border: 2px solid black;
   max-width: 400px;
@@ -41,7 +41,7 @@ a {
 }
 
 .content-header h1 {
-  font-family: 'Special Elite', cursive;
+  font-family: "Special Elite", cursive;
   font-size: 55px;
   text-align: center;
   margin-top: 35px;
@@ -80,5 +80,22 @@ a {
   text-align: center;
   margin: 20px 0;
   font-size: 48px;
+}
+
+.content-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 2px solid black;
+  padding: 10px 5px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.content-footer i {
+  color: #f27777;
 }
 /*# sourceMappingURL=main.css.map */
