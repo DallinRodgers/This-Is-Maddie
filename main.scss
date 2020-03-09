@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 400px;
+    margin-top: 200px;
+    height: auto;
+    &-header {
+        & img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            top: -60px;
+            left: -50px;
+        }
+        & h1 {
+            font-family: 'Special Elite', cursive;
+            font-size: 50px;
+            text-align: center;
+            margin-top: 35px;
+        }
+    }
+    &-body {
+        p {
+            padding: 20px;
+            color: rgb(124, 124, 124);
+            font-size: 20px;
+        }
+    }
+}
