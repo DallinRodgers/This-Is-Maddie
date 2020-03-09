@@ -9,6 +9,30 @@ a {
   font-size: 20px;
   border: 1px solid black;
   padding: 5px 15px;
+  position: relative;
+  overflow: hidden;
+
+  &:hover::after {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  &::after {
+    content: "Click Me";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(3);
+    opacity: 0;
+    transition: all 0.5s;
+  }
 }
 .container {
   display: flex;
@@ -24,11 +48,11 @@ a {
   &-header {
     & img {
       border-radius: 50%;
-      width: 120px;
-      height: 120px;
+      width: 140px;
+      height: 140px;
       position: absolute;
-      top: -60px;
-      left: -60px;
+      top: -70px;
+      left: -70px;
     }
     & h1 {
       font-family: "Special Elite", cursive;
@@ -40,7 +64,7 @@ a {
   &-body {
     p {
       padding: 20px;
-      color: rgb(124, 124, 124);
+      color: rgb(68, 68, 68);
       font-size: 20px;
     }
   }
@@ -58,6 +82,10 @@ a {
         text-align: center;
         margin: 20px 0;
         font-size: 48px;
+        padding: 10px 15px;
+        &::after {
+          content: "Hire Me";
+        }
       }
     }
   }
