@@ -2,4 +2,4 @@
 
 This is my SCSS rendering of a provided mock-up. The image was sources from Pexels. 
 
-View Online: https://dallinrodgers.github.io/This-Is-Maddie/
+View on GitHub pages: https://dallinrodgers.github.io/This-Is-Maddie/
