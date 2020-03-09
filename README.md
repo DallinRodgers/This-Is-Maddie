@@ -1,2 +1,5 @@
 # This Is Maddie
- This is a front end coding challange
+
+This is my SCSS rendering of a provided mock-up. The image was sources from Pexels. 
+
+View Online: https://dallinrodgers.github.io/This-Is-Maddie/
